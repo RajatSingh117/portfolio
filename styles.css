@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+background-color: rgb(24 6 77);
+color: rgb(204, 212, 45)
+} 
+
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 80px;
+background-color: black;
+}
+nav ul{
+display: flex;
+justify-content: center;
+}
+nav ul li{
+list-style: none;
+margin: 0 23px;
+}
+
+nav ul li a{
+text-decoration: none;
+color: white;
+}
+nav ul li a:hover{
+color: rgb(21, 174, 240);
+font-size: 1.05rem;
+} 
+
+main hr{
+border: 0;
+background: rgb(21, 174, 240);
+height: 1.2px;
+margin: 40px 84px;
+}
+.left{
+font-size: 2rem;
+}
+.firstSection{
+display: flex;
+justify-content: space-around;
+margin: 90px 0;
+align-items: center;
+
+}
+
+.firstSection > div{
+width: 30%;
+}
+
+.leftSection{   
+font-size: 3rem;
+}
+
+.leftSection .buttons{
+padding: 40px;
+}
+.leftSection .btn{
+padding: 10px;
+background: rgb(144, 46, 46);
+color: white;
+border: 2px solid white;
+border-radius: 6px;
+font-size: 15px;
+cursor: pointer;
+}
+.rightSection ul{
+list-style: circle;
+color: rgb(0, 255, 140);
+}
+.rightSection{
+font-size: 20px;
+}
+.rightSection img{
+width: 80%;
+}
+
+.a{
+color: #01cce7;
+}
+.text-gray{
+color: rgb(160, 160, 160);
+}
+#element{
+color: chartreuse;  
+}
+.secondSection{
+max-width: 80vw;
+margin: auto;
+height: 80vh;
+}
+.secondSection h1{
+font-size: 1.9rem;
+}
+.secondSection .box{
+background: white;
+width: 80vw;
+height: 2px;
+margin: 55px;
+display: flex;
+}
+.secondSection .vertical{
+height: 90px;
+width: 1px;
+background-color: white;
+margin: 0 118px;
+}
+
+.image-top{
+width: 23px;
+position: relative;
+top: -32px;
+left: -10px;
+
+}
+.vertical-title{
+position: relative;
+top: 75px;
+width: 150px;
+font-size: 16px;
+}
+
+.vertical-desc{
+position: relative;
+top: 86px;
+color: gray;
+width: 150px;
+font-size: 9px;
+}
+footer{
+background-color: rgb(15, 15, 101);
+}
+.footer{
+display: flex;
+padding: 23px 122px;
+justify-content: space-evenly;
+}
+
+footer ul{
+list-style: none;
+}
+
+.footer > div{
+width: 223px;
+}
+
+footer .footer-rights{
+text-align: center;
+color: gray;
+padding: 12px 0;
+}
+footer .image-top{
+width: 23px;
+position: relative;
+top: 36px;
+left: -26px;
+}
